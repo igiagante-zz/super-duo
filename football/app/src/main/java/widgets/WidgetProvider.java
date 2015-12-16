@@ -11,6 +11,7 @@ import android.net.Uri;
 import android.util.Log;
 import android.widget.RemoteViews;
 
+import com.example.igiagante.football.MainActivity;
 import com.example.igiagante.football.R;
 
 /**
@@ -34,9 +35,25 @@ public class WidgetProvider extends AppWidgetProvider {
 
             footballRemoteViews.setRemoteAdapter(R.id.widget_list_matches, footballServiceIntent);
 
-            appWidgetManager.updateAppWidget(appWidgetId, footballRemoteViews);
+            Intent templateIntent = new Intent(context, MainActivity.class);
+            templateIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
+            templateIntent.setData(Uri.parse(footballServiceIntent.toUri(Intent.URI_INTENT_SCHEME)));
+            PendingIntent templatePendingIntent = PendingIntent.getActivity(context, 0,
+                    templateIntent,
+                    PendingIntent.FLAG_UPDATE_CURRENT);
 
+            footballRemoteViews.setPendingIntentTemplate(R.id.widget_list_matches, templatePendingIntent);
+
+            footballRemoteViews.setOnClickPendingIntent(R.id.widget_header, getLaunchIntent(context));
+
+            appWidgetManager.updateAppWidget(appWidgetId, footballRemoteViews);
         }
+    }
+
+    private PendingIntent getLaunchIntent(Context context) {
+        Intent launchIntent = new Intent(context, MainActivity.class);
+        launchIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        return PendingIntent.getActivity(context, 0, launchIntent, 0);
     }
 
     @Override
