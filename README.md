@@ -2,16 +2,16 @@
 
 ## Alexandria
 
-...* If one book is deleted, the list of books is updated.
-When the user deletes a digit from the isbn, the last search is still there. It doesn’t need to call every time to the book service.
-The list of books permit now searching over all the books. It can detect when the user is entering a letter and then, it used to filter the list of books at the moment.
-If the book doesn’t have any image to show, an image will be shown saying that the image is not available.
-The search’s function was changed for a button. I think it’s not a good idea to ask to the service every time the user enter 13 digits.
-It shouldn’t add a book to the database if the user hasn’t confirmed.
-The back button from book detail was removed.
-All the UI was improved. Now you can appreciate a new style.
-It saves the last isbns, so when the user tries to search again a book, it will be recommended those isbns which match with the entered numbers.
-When the user click the button search and there is a result for the search, the keyboard disappears.
+..* If one book is deleted, the list of books is updated.
+..* When the user deletes a digit from the isbn, the last search is still there. It doesn’t need to call every time to the book service.
+..* The list of books permit now searching over all the books. It can detect when the user is entering a letter and then, it used to filter the list of books at the moment.
+..* If the book doesn’t have any image to show, an image will be shown saying that the image is not available.
+..* The search’s function was changed for a button. I think it’s not a good idea to ask to the service every time the user enter 13 digits.
+..* It shouldn’t add a book to the database if the user hasn’t confirmed.
+..* The back button from book detail was removed.
+..* All the UI was improved. Now you can appreciate a new style.
+..* It saves the last isbns, so when the user tries to search again a book, it will be recommended those isbns which match with the entered numbers.
+..* When the user click the button search and there is a result for the search, the keyboard disappears.
 
 
 ## Soccer App
