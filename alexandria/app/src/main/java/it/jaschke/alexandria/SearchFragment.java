@@ -92,6 +92,9 @@ public class SearchFragment extends Fragment {
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                hideKeyboard();
+
                 TextView textView = (TextView) mContainerView.findViewById(R.id.search_query);
                 String query = textView.getText().toString();
                 if (query.equals("")) {
@@ -181,6 +184,10 @@ public class SearchFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        hideKeyboard();
+    }
+
+    private void hideKeyboard() {
         final InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
         imm.hideSoftInputFromWindow(getView().getWindowToken(), 0);
     }
