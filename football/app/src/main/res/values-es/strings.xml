@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_teams">"Actualizando equipos ..."</string>
+
+    <string name="yesterday">Ayer</string>
+    <string name="today">Hoy</string>
+    <string name="tomorrow">Mañana</string>
+
+    <string name="internet_is_not_available">Internet no esta disponible</string>
+    <string name="clean_database">La base de datos fue reiniciada correctamente</string>
+
+    <string name="soccer_app_today">Football App - Hoy</string>
+
+    <!-- Content Descriptions -->
+    <string name="home_team_name">Nombre del equipo local</string>
+    <string name="away_team_name">Nombre del equipo visitante</string>
+    <string name="home_team_image">Imagen del equipo local</string>
+    <string name="away_team_image">Imagen del equipo local</string>
+
+</resources>

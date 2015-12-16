@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Soccer App</string>
+    <string name="action_settings">Settings</string>
+    <string name="flag_country">Country flag</string>
+
+    <string name="api_key">93faa0b65e584752a275cf68ddf19568</string>
+
+    <string name="next_match" translatable="false">Next Match</string>
+
+    <string name="format_yyyy_MM_dd" translatable="false">yyyy-MM-dd</string>
+    <string name="format_EEE_dd_MMM" translatable="false">EEE dd MMM</string>
+
+    <string name="timed" translatable="false">TIMED</string>
+    <string name="on_enabled" translatable="false">Widget Provider enabled. Starting timer to update widget every minute</string>
+    <string name="on_disabled" translatable="false">Widget Provider disabled. Turning off timer</string>
+
+    <!-- These texts should be translate -->
+    <string name="update_teams">"Updating Teams ..."</string>
+
+    <string name="yesterday">Yesterday</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <string name="internet_is_not_available">Internet is not available</string>
+    <string name="clean_database">The database was clean successfully</string>
+
+    <string name="soccer_app_today">Soccer App - Today</string>
+
+    <!-- Content Descriptions -->
+    <string name="home_team_name">Home Team Name</string>
+    <string name="away_team_name">Away Team Name</string>
+    <string name="home_team_image">Home Team Image</string>
+    <string name="away_team_image">Away Team Image</string>
+
+</resources>
