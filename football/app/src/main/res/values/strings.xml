@@ -25,11 +25,15 @@
     <string name="clean_database">The database was clean successfully</string>
 
     <string name="soccer_app_today">Soccer App - Today</string>
+    <string name="share_league">Send league matches</string>
+    <string name="subject_mail">Matches - %1$s - %2$s</string>
 
     <!-- Content Descriptions -->
     <string name="home_team_name">Home Team Name</string>
     <string name="away_team_name">Away Team Name</string>
     <string name="home_team_image">Home Team Image</string>
     <string name="away_team_image">Away Team Image</string>
+
+    <string name="button_share_league">Share League Matches</string>
 
 </resources>

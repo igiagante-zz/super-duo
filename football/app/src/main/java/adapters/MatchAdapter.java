@@ -2,9 +2,7 @@ package adapters;
 
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.net.Uri;
-import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,16 +13,10 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.igiagante.football.R;
-import com.squareup.picasso.MemoryPolicy;
-import com.squareup.picasso.NetworkPolicy;
-import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
-import java.util.ConcurrentModificationException;
-import java.util.concurrent.ExecutionException;
 
 import model.Match;
-import utils.Utils;
 
 /**
  * @author igiagante on 23/11/15.

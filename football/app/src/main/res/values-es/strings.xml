@@ -10,11 +10,15 @@
     <string name="clean_database">La base de datos fue reiniciada correctamente</string>
 
     <string name="soccer_app_today">Football App - Hoy</string>
+    <string name="share_league">Enviar partidos de liga</string>
+    <string name="subject_mail">Partidos - %1$s - %2$s</string>
 
     <!-- Content Descriptions -->
     <string name="home_team_name">Nombre del equipo local</string>
     <string name="away_team_name">Nombre del equipo visitante</string>
     <string name="home_team_image">Imagen del equipo local</string>
     <string name="away_team_image">Imagen del equipo local</string>
+
+    <string name="button_share_league">Compartir partidos de la liga</string>
 
 </resources>
