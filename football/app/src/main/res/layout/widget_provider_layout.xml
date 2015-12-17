@@ -26,7 +26,7 @@
                 android:layout_height="40dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginBottom="10dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:src="@drawable/ic_soccer" />
 
@@ -34,7 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
                 android:gravity="center"
                 android:text="@string/soccer_app_today"
                 android:textColor="#4B4B4D"
@@ -51,7 +51,7 @@
         <ListView
             android:id="@+id/widget_list_matches"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"></ListView>
+            android:layout_height="wrap_content"/>
 
         <ImageView
             android:id="@+id/no_match_for_today"
