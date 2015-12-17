@@ -30,5 +30,5 @@
 * Support RTL was added.
 * A widget collection was added in order to inform about the matches which will be played during the day. In case there isn’t any match for the day, it will show a message saying that.
 * If the user clicks over the widget, the app will be resumed. 
-* A button was added to share the list of matches from one league.
+* Share button was added to share the list of matches from one league.
 
